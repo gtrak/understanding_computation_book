@@ -1,6 +1,6 @@
 (library
  (inline_tests)
  (name understanding_computation_book)
- (libraries base angstrom)
+ (libraries base angstrom zarith re)
  (preprocess
-  (pps ppx_inline_test)))
+  (pps ppx_jane)))

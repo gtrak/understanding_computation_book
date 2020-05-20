@@ -11,4 +11,7 @@ depends: [
   "re"
   "ocamlformat" { = "0.14.2" }
   "merlin"
+  "ppx_assert"
+  "ppx_jane"
+  "zarith"
 ]
