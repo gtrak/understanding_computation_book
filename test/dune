@@ -1,0 +1,5 @@
+(test
+ (name understanding_computation_book)
+ (libraries base angstrom)
+ (preprocess
+  (pps ppx_inline_test)))

@@ -1,0 +1,12 @@
+---
+exclude: "^(_build|_opam)/.*$"
+repos:
+  - repo: local
+    hooks:
+      - id: ocamlformat
+        name: ocamlformat
+        entry: ocamlformat
+        language: system
+        types: [ocaml]
+        files: "\\.mli?$"
+        args: ["-i"]

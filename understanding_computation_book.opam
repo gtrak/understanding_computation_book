@@ -1,0 +1,14 @@
+opam-version: "2.0"
+maintainer: "gary.trakhman@gmail.com"
+dev-repo: "git+https://github.com/gtrak/understanding_computation_book"
+synopsis: "Working through tht 'Understanding Computation' book"
+
+depends: [
+  "ocaml" { = "4.10.0" }
+  "ppxlib"
+  "angstrom"
+  "base" { >= "v0.13.0" }
+  "re"
+  "ocamlformat" { = "0.14.2" }
+  "merlin"
+]
